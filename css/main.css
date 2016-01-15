@@ -1,0 +1,31 @@
+/*Finns snyggare sätt att göra med height: 100vh; men vet inte riktigt hur? /Axel */
+
+#main-logo-page,
+img {
+  height: 100vh;
+  max-width: 375px;
+  background-color: lightcyan;
+}
+
+#about {
+  height: 100vh;
+  background-color: lightblue;
+}
+
+#portfolio {
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.gammalt-case {
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+}
+
+#contact {
+  height: 100vh;
+  background-color: lightcoral;
+}
